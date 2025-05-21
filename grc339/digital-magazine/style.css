@@ -13,45 +13,59 @@ img {
 }
 
 section {
-    margin-bottom: 2.25em;
+    margin-bottom: 2em;
 }
 
 h1 {
-    width: 10em;
+    width: 12em;
     margin: 1.5em 0em;
 }
 
 h2 {
-    font-family: serif;
-    font-weight: 600;
-    font-size: 3em;
-    color: rgb(93,119,150);
+    font-family: hoss-round-slab, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #D96438;
+}
+
+section.mainstory h2 {
+    padding-top: .25em;
+    padding-bottom: .15em;
+    line-height: 1.1em;
 }
 
 section.secondary h2, aside section.secondary h2 {
-    font-size: 2em;
+    font-size: 1.8em;
+    padding-top: .25em;
+    padding-bottom: .2em;
+    line-height: 1.1em;
 }
 
-section.tertiaryStoryTeaser h2{
+section.tertiary h2{
     font-size: 1.25em;
-    border-top: 1.5px solid rgb(93,119,150);
+    border-top: 1.5px solid #6064A6;
     padding-top: .25em;
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "davis-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.1em;
     color: rgb(0, 0, 0);
     margin-bottom: 1em;
+    line-height: 1.25em;
 }
 
 article figure{
     margin-bottom: 1.5em;
 }
 
-article h2{
+article h2 {
     margin: .75em 0em 0.25em 0em;
 }
+
 a {
     text-decoration: none;
 }
@@ -61,19 +75,21 @@ nav {
 }
 
 nav ul li {
-    font-size: 1.3em;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-size: 1em;
+    font-family: davis-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
     list-style-type: none;
     margin: .25em 0em;
 }
 
 nav ul li a{
-    color: rgb(93,119,150);
+    color: #D9A44A;
 }
 
 footer {
-    background-color: rgb(93, 119, 150);
+    background-color: #6064A6;
     padding: .75em 0em;
     box-sizing: border-box;
 }
@@ -83,11 +99,11 @@ footer p {
 }
 
 header, h2, p, figcaption{
-    padding: 0 0.5rem;
+    padding: 0 0.5rem; /*Padding on mobile screen size*/
 }
 
 aside {
-    background-color: rgb(204,208,251);
+    background-color: #FFF1E8;
     padding: 1.25em .75em;
 }
 
@@ -101,8 +117,9 @@ aside section.secondary h2 {
 
 figcaption {
     font-size: 1em;
+    font-family: davis-sans, sans-serif;
+    font-weight: 400;
     font-style: italic;
-    font-family: sans-serif;
     margin: .25em 0em;
     color: #888;
 }
