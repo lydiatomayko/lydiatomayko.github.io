@@ -1,0 +1,84 @@
+<!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- You need this to proper scale in actual mobile devices.-->
+            <link rel="stylesheet" href="style.css"/><!-- Don’t forget to link to your CSS here. -->
+            <link rel="stylesheet" href="https://use.typekit.net/iir2ynx.css">
+            <title>Couch Rodeo</title> <!-- This will be replaced with the actual name of the publication later.  -->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="newsletter-container">
+
+                <!-- Same header as the home page. -->
+                <header>
+
+                    <h1><a href="index.html"><img src="couch-rodeo-logo.svg"></a></h1>
+
+                    <nav>
+                        <ul>
+                            <li><a href="photogallery.html">Gallery</a></li>
+                            <li><a href="#">Tours</a></li>
+                            <li><a href="#">Organize</a></li>
+                            <li><a href="#">Moving</a></li>
+                            <li><a href="#">Handpicked</a></li>
+                            <li><a href="newsletter.html">Newsletter</a></li>
+                        </ul>
+                    </nav>
+
+                </header>
+
+
+                <main class="newsletter">
+                    <h2>Couch Rodeo Roundup</h2>
+
+                    <p>Looking to tame your space with smart design tips, DIYs, and real-life inspiration? Sign up below to wrangle all things style, small space living, and renter-friendly upgrades straight to your inbox.</p>
+                
+                    <form>
+
+                        <section class = "personal-info">
+                            <!-- Name, city, state, email, phone number -->
+                            <h3>Personal Information</h3>
+
+                            <ul>
+                                <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                                <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                            </ul>
+                        </section>
+                        
+                        <section class = "subscription-preferences">
+                            <!-- subscription preference checkboxes here -->
+                            <h3>Subscription Preferences</h3>
+                            <ul>
+                                <li><input type="checkbox" id="a1-sauce" value="a1-sauce" /> <label for="a1-sauce">Small Space, Big Energy: Creative solutions for tiny homes with big personalities</label></li>
+                                <li><input type="checkbox" id="barbecue-sauce" value="barbecue-sauce" /> <label for="barbecue-sauce">The Weekend Wrangler: Quick, renter-safe DIYs and style upgrades</label></li>
+                                <li><input type="checkbox" id="green-peppers" value="green-peppers" /> <label for="green-peppers">Couch Confessions: Real homes, bold choices, and interviews with everyday design lovers</label></li>
+                            </ul>
+                        </section>
+                           
+                        <section class="feedback"><label for="notes">Want your home featured in Couch Rodeo? Tell us a little about it!</label><textarea id="notes" name="notes"></textarea></section>
+                        
+                        <section class="subscribe-button">
+                            <button type="order">Subscribe!</button>
+                        </section>
+                  
+                    </form>
+                </main>
+                
+
+               <footer> 
+                    <p>All rights reserved</p>
+                </footer>
+
+            </div>
+        </body>
+    </html>
+
+
