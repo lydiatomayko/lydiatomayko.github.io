@@ -323,7 +323,6 @@ form section.subscribe-button {
 
     section.mainstory a figure {
         flex: 1 0 12em;
-        background: #ff0;
         display: flex;
     }
 
@@ -351,7 +350,6 @@ form section.subscribe-button {
 
     section.secondary a figure {
         flex: 1 0 12em;
-        background: #ff0;
         display: flex;
     }
 
@@ -366,4 +364,66 @@ form section.subscribe-button {
     section.secondary a p {
         flex: 0 0 4em;
     }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    h1 {  
+        background-image: url("couch-rodeo-logo-alt.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }  
+    
+    h1 img {  
+        opacity: 0;  
+    }  
+
+    body {
+        background-color: #2B1B1D;
+
+    }
+
+    nav ul li a {
+        color: #E5A15C;
+    }
+
+
+    h2 {
+        color: #D1BAD6;
+    }
+
+    h3 {
+        color: #2B1B1D;
+    }
+
+    p, figcaption {
+        color: #E3DBD1;
+    }
+    
+    footer {
+        background-color: #E5A15C;
+    }
+
+    section.tertiary h2{
+        border-top: 1.5px solid #D3756B;
+    }
+
+    aside {
+        background-color: #3A2C38;
+    }
+
+    form section {
+        background-color: #D1BAD6;
+    }
+
+    form section ul li label, label {
+        color: #2B1B1D;
+    }
+
+    form section.subscribe-button {
+        background-color: #2B1B1D;
+        padding: 0 0 2em 0;
+    }
+
+    /* NEED TO FIX ASIDE COLORS */
+    /* NEED TO ADD ALT TEXT */
 }
